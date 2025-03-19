@@ -1,0 +1,38 @@
+.judul,
+.subjudul {
+    text-align: center;
+    color: #333;
+}
+
+table,
+th,
+tr,
+td {
+    border: 1px solid;
+    padding: 3px;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+th {
+    background-color: darkgray;
+    color: black;
+}
+
+th:hover {
+    background-color: lightslategray;
+    color: blue;
+}
+
+td {
+    background-color: lightsteelblue;
+}
+
+td:hover {
+    background-color: lightslategrey;
+    color: blue;
+}
