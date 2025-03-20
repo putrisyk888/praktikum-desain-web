@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+        <h2>Formulir Pendaftaran Mahasiswa</h2>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+        <form action="submit" name="registrasi" method="post">
+        <fieldset>
+        <label for="Nama lengkap">Nama lengkap</label> 
+        <input type="text" name="Nama Lengkap" id="Nama Lengkap">
+        </fieldset>
+        <br>
+        <fieldset>
+        <label for="Tanggal lahir">Tanggal lahir</label>
+        <input type="date" id="start" name="Tanggal lahir" value="2005-01-01" min="2005-01-01" max="2024-12-31">
+        </fieldset>
+        <br>
+        <fieldset>
+        <label for="Jenis kelamin">Jenis kelamin</label>
+        <input type="checkbox" name="Jenis kelamin" value="Laki-laki">Laki-laki
+        <input type="checkbox" name="Jenis kelamin" value="Perempuan">Perempuan
+        </fieldset>
+        <br>
+        <fieldset>
+        <label for="Prodi">Prodi</label>
+        <select id="Prodi" name="Prodi">
+        <option value="D3 Manajemen Informatika">D3 Manajemen Informatika</option>
+        <option value="S1 Teknik Informatika">S1 Teknik Informatika</option>
+        </select>
+        </fieldset>
+        <br>
+        <fieldset>
+        <label for="Alamat">Alamat</label><br>
+        <textarea name="Alamat" cols="50" rows="3">
+            Isikan detail alamat anda
+        </textarea>
+        </fieldset>
+        <br>
+        <fieldset>
+        <label for="No telepon">No telepon</label>
+        <input telp="No telepon" id="No telepon">
+        </fieldset>
+        <br>
+        <button type="button" onclick="alert('Data Anda Sudah Terkirim!')">Click Me</button>
+        </form>
+    </footer>
+</body>
+</html>
